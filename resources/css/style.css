@@ -118,3 +118,22 @@ nav .site_container {
   color: black;
   padding: 0;
 }
+
+/* Footer */
+
+footer {
+  margin-top: 4rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* Media Query Screen Size < 1024px */
+
+@media only screen and {
+
+} {
+
+}
