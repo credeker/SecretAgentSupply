@@ -62,3 +62,59 @@ nav a {
 nav .site_container {
   justify-content: space-between;
 }
+
+/* Products */
+
+#product_container.site_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_box {
+  border: 4px solid black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 30%;
+}
+
+.product_box img {
+  display: block;
+  margin: 2rem auto;
+  height: 9rem;
+  max-width: 100%
+}
+
+.product_box p {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Location and Hours */
+
+.location_hours {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#location,
+#hours {
+  width: 35%;
+}
+
+.location_hours p {
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.location_hours p.black_text_p
+ {
+  background-color: white;
+  color: black;
+  padding: 0;
+}
