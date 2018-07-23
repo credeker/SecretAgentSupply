@@ -63,6 +63,10 @@ nav .site_container {
   justify-content: space-between;
 }
 
+#menu_item {
+  display: none;
+}
+
 /* Products */
 
 #product_container.site_container {
@@ -132,8 +136,26 @@ footer {
 
 /* Media Query Screen Size < 1024px */
 
-@media only screen and {
+@media only screen and (max-width: 1024px) {
+   #glasses {
+     display: none;
+   }
 
-} {
+   .product_box {
+     width: 47%;
+   }
+
+  .navbar {
+    display: none;
+   }
+
+   #menu_item {
+     display: inline-block;
+     margin: 0 auto;
+   }
+
+
+
+
 
 }
